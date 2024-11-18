@@ -1,0 +1,31 @@
+.tasksCounter {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.5rem auto 0;
+}
+
+.createdTasks,
+.completedTasks {
+  display: flex;
+  align-items: center;
+}
+
+.createdTasks p {
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.completedTasks p {
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.createdTasks span,
+.completedTasks span {
+  color: var(-gray-200);
+  background-color: var(--gray-400);
+  padding: 2px 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: 12px;
+}
